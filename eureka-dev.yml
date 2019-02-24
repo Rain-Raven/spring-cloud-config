@@ -8,7 +8,5 @@ eureka:
 info:
   appName: mySpringCloud
   author: zxa
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
 
 
