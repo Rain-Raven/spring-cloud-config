@@ -1,6 +1,3 @@
-spring:
-  application:
-    name: eureka-server
 eureka:
   instance:
     hostname: localhost
@@ -8,5 +5,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8901/eureka/,http://localhost:8902/eureka/
+info:
+  appName: mySpringCloud
+  author: zxa
+  build.artifactId: @project.artifactId@
+  build.version: @project.version@
 
 
