@@ -1,7 +1,7 @@
 eureka:
   instance:
     hostname: eureka
-	instance_id: eureka
+    instance_id: eureka
 info:
   appName: mySpringCloud
   author: zxa
