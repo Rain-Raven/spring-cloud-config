@@ -5,7 +5,7 @@ eureka:
   instance:
     instance-id: eureka
     prefer-ip-address: true
-	hostname: 120.79.225.94
+    hostname: 120.79.225.94
   
 
 
