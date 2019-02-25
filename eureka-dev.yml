@@ -3,8 +3,9 @@ info:
   author: zxa
 eureka:
   instance:
-    instance-id: email
+    instance-id: eureka
     prefer-ip-address: true
+	hostname: 120.79.225.94
   
 
 
