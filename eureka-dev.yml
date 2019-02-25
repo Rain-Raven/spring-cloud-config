@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: eureka
+    hostname: localhost
     instance_id: eureka
 info:
   appName: mySpringCloud
