@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: http://120.79.225.94
+    hostname: eureka
 	instanceId: eureka
 info:
   appName: mySpringCloud
