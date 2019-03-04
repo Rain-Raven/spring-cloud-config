@@ -9,8 +9,6 @@ eureka:
 info:
   appName: 轻步
   author: zxa
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
 
 ribbon:
   ReadTimeout: 5000
