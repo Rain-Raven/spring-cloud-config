@@ -7,7 +7,7 @@ eureka:
     prefer-ip-address: true
 
 info:
-  appName: mySpringCloud
+  appName: 轻步
   author: zxa
   build.artifactId: @project.artifactId@
   build.version: @project.version@
