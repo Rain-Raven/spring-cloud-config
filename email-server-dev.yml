@@ -35,10 +35,9 @@ mail:
   binding:
     time: 10
 
-
-
-
 info:
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
   appName: mySpringCloud
   author: zxa
 
