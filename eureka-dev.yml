@@ -6,6 +6,10 @@ eureka:
     instance-id: eureka
     prefer-ip-address: true
     hostname: 120.79.225.94
+logging:
+  file: /root/spring-cloud/log/${spring.application.name}-${server.port}-log
+  level:
+    com.zxa: warn
   
 
 
