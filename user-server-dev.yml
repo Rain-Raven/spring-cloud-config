@@ -17,6 +17,14 @@ spring:
     testOnReturn: false
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
+  redis:
+    host: 120.79.225.94
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+    timeout: 0ms
 mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
   configuration:
@@ -31,7 +39,7 @@ eureka:
 
 info:
   appName: 轻步
-  author: zxa
+  author: Jero
 
 ribbon:
   ReadTimeout: 5000
