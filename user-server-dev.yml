@@ -24,7 +24,7 @@ spring:
         max-active: 8
         max-idle: 8
         min-idle: 0
-    timeout: 0ms
+    timeout: 10s
 mybatis:
   mapper-locations: classpath:mybatis/mapper/*.xml
   configuration:
@@ -54,4 +54,4 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 5000
+            timeoutInMilliseconds: 10000
